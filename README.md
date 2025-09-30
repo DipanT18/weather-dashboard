@@ -13,11 +13,11 @@ A beautiful, responsive weather dashboard built with HTML, CSS, and JavaScript t
 
 ## 🚀 Live Demo
 
-[Live Demo Link](https://yourusername.github.io/weather-dashboard) *(Add this after deploying)*
+[Live Demo Link](https://dipant18.github.io/weather-dashboard/) *(Add this after deploying)*
 
 ## 📸 Screenshots
 
-![Weather Dashboard](screenshot.png) *(Add a screenshot)*
+![Weather Dashboard](weatherappss.png) *(Add a screenshot)*
 
 ## 🛠️ Technologies Used
 

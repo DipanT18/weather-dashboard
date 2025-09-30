@@ -13,11 +13,11 @@ A beautiful, responsive weather dashboard built with HTML, CSS, and JavaScript t
 
 ## 🚀 Live Demo
 
-[Live Demo Link](https://dipant18.github.io/weather-dashboard/) *(Add this after deploying)*
+[Live Demo Link](https://dipant18.github.io/weather-dashboard/)
 
 ## 📸 Screenshots
 
-![Weather Dashboard](weatherappss.png) *(Add a screenshot)*
+![Weather Dashboard](weatherappss.png)
 
 ## 🛠️ Technologies Used
 
@@ -30,5 +30,5 @@ A beautiful, responsive weather dashboard built with HTML, CSS, and JavaScript t
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/yourusername/weather-dashboard.git
+   git clone https://github.com/DipanT18/weather-dashboard.git
    cd weather-dashboard

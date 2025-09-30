@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌤️ Weather Dashboard</h1>
+            <p class="subtitle">Get real-time weather information for any city</p>
+        </header>
+
+        <div class="search-section">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="cityInput" 
+                    placeholder="Enter city name (e.g., New York, Kathmandu, Mumbai)"
+                    autocomplete="off"
+                >
+            </div>
+            <button id="searchBtn">Get Weather</button>
+        </div>
+
+        <div class="quick-cities">
+            <div class="city-chip" data-city="Kathmandu">🛕 Kathmandu</div>
+            <div class="city-chip" data-city="Beijing">🇨🇳 Beijing</div>
+            <div class="city-chip" data-city="Banepa">🚩 Banepa</div>
+            <div class="city-chip" data-city="New York">🗽 New York</div>
+            <div class="city-chip" data-city="Mumbai">🏙️ Mumbai</div>
+        </div>
+
+        <div id="error" class="error"></div>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Fetching weather data...</p>
+        </div>
+
+        <div id="weatherCard" class="weather-card">
+            <div class="weather-main">
+                <div class="weather-icon-section">
+                    <div class="weather-icon" id="weatherIcon">☀️</div>
+                    <div class="weather-description" id="weatherDescription">Clear Sky</div>
+                </div>
+                <div class="weather-info">
+                    <div class="city-name" id="cityName">City Name</div>
+                    <div class="temperature" id="temperature">25°C</div>
+                    <div class="feels-like" id="feelsLike">Feels like 23°C</div>
+                </div>
+            </div>
+
+            <div class="weather-details">
+                <div class="detail-card">
+                    <div class="detail-icon">💧</div>
+                    <div class="detail-label">Humidity</div>
+                    <div class="detail-value" id="humidity">--</div>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">💨</div>
+                    <div class="detail-label">Wind Speed</div>
+                    <div class="detail-value" id="windSpeed">--</div>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">🌡️</div>
+                    <div class="detail-label">Pressure</div>
+                    <div class="detail-value" id="pressure">--</div>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">👁️</div>
+                    <div class="detail-label">Visibility</div>
+                    <div class="detail-value" id="visibility">--</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
